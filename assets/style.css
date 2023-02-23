@@ -1,22 +1,24 @@
 /*Estilos da página index.html*/
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    background-color: aquamarine;
 
 }
 .center {
     text-align: center;
 }
 
-.justify{ 
-    text-align:  center;
-}
-
 .container{
     display: flex;
-    flex-flow: row ;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: center;
+    background: #ffffff40;
+    box-shadow: 0 8px 32px 0 #1f26875e;
+    backdrop-filter: blur( 4px );
+    overflow: hidden;
 }
 
 #menu li {
@@ -33,7 +35,7 @@ body{
     color:grey;
 }
 .p-30 {
-    padding: 30px;
+    padding: 50px;
 }
 .br-50 {
     border-radius: 50%;
